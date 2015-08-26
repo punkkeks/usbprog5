@@ -1,3 +1,0 @@
-./configure --enable-maintainer-mode --disable-werror --enable-sysfsgpio
-
-+ alle libusb dev pakete
