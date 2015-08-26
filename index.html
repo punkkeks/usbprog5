@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title>The new USBprog 5.0 programmer / debugger / production tool </title>
+	<meta name="description" content="USBprog 5.0 is a programmer / debugger (gdb) / flash tool / production tool based on embedded linux, openocd, avrdude an python tool and a modern web gui">
+	<meta name="author" content="embedded projects GmbH">
+	<meta name="HandheldFriendly" content="true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Import CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollto.min.js"></script>
+	<script src="js/slabtext.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body class="home color-2">
+	<div id="header">
+		<div class="container">
+
+			<div class="row">
+
+					<i id="nav-button" class="icon-circle-arrow-down"></i>
+					<h2 id="logo"><a href="index.html">usbprog <span class="highlight">5.0</span></a></h2>
+				
+
+				<div id="top-nav" class="">
+					<ul id="fixed-nav">
+						<li class="current"><a href="#home">Home</a></li>
+						<li><a href="#services">Features</a></li>
+						<li><a href="#processors">Processors</a></li>
+						<li><a href="#downloads">Downloads</a></li>
+						<li><a href="#buy">Buy</a></li>
+						<li><a href="#aboutus">About Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div><!-- End Header -->
+	<!-- Big Full screen Banner -->
+	<div class="hero bg-fixed bg-color" id="home">
+
+		<div class="slogan">
+			<div  class="vcenter container">
+
+				<div class="row">
+
+					<div class="span12">
+						<h1>USBprog 5.0 is a new generation of programmer / debugger (gdb) / flash and production tool</h1>
+						<h4>based on openocd, avrdude, embedded linux, a python tool and a modern web gui</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<!-- End Full screen banner  -->
+	<!-- Services Section -->
+	<!-- class section-alt is to give a different color please edit css/style.css to change the color -->
+	<div class="section section-alt" id="services">
+		<div class="container">
+			<div class="content">
+				<div class="row" >
+					<div class="title">
+						<h2>Features</h2>
+						<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+						<p>All in one programmer and ready to use - without any installation - Windows, Mac and Linux.</p>
+						<img src="img/usbprog_50.png">
+					</div>
+				</div>
+				<div class="row">
+					<div class="span4 i-block">
+						<h3>Programmer</h3>
+						<p>Bescause it's based on the well-known open source projects avrdude and openocd many processors are supported.</p><img width="300" src="img/programmer.png" align="center">
+					</div>
+					<div class="span4 i-block">
+						<h3>Debugger</h3>
+						<p>USBprog is based on the open source jtag debugger <b>openocd</b>. Many ARM&reg; processors can be debugged with GNU GDB Debugger. Choose the processor an start debugging.</p><img src="img/start_debugger.png" align="center">
+					</div>
+					<div class="span4 i-block">
+						<h3>Production tool</h3>
+						<p>Store and recall user defined program sets. Perfect for small productions or people who will only program microcontrollers in an easy way.</p><img src="img/production.png" align="center">
+					</div>
+				</div>
+				<div class="hr hr-invisible"></div>
+				<div class="row">
+					<div class="span4 i-block">
+						<h3>Browser based</h3>
+						<pi align="left">Use USBprog with your favorit browser. No installation of a special gui or a driver is needed.</p><img width="300" src="img/browser.png" align="center">
+					</div>
+					<div class="span4 i-block">
+						<h3>Commandline tool</h3>
+						<p><b>embeddedprog.py</b> is a python commandline tool for windows, mac and linux with runs with no special libraries.</p><img src="img/console2.png" align="center">
+					</div>
+					<div class="span4 i-block">
+						<h3>network connection</h3>
+						<p>No additional USB driver is needed! Connect USBprog via network (USB emulated, LAN or WLAN) to your pc or tablet.</p><img width="300" src="img/network.png" align="center">
+					</div>
+				</div>
+				<div class="hr hr-invisible"></div>
+				<div class="row">
+					<div class="span4 i-block">
+						<h3>1.8V to 5.0V</h3>
+						<p>Choose via software your operation target.</p>
+					</div>
+					<div class="span4 i-block">
+						<h3>linux inside</h3>
+						<p>USBprog 5.0 is build with embedded linux (all open source).</p>
+					</div>
+					<div class="span4 i-block">
+						<h3>Updatable</h3>
+						<p>Upgrade your USBprog 5.0 with our newest updates.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Services Section -->
+	<!-- Processors Section -->
+	<div class="section section-alt" id="processors">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="span12">
+						<div class="title">
+							<h2>Processors</h2>
+							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+							<p>Supported processors.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+
+<table class="table table-bordered table-striped">
+
+<tr>
+<th> CORE TYPE
+</th><th> EXAMPLE PROCESSORS
+</th></tr>
+<tr>
+<td> ARM7TDMI
+</td><td> LPC2148, AT91SAM7
+</td></tr>
+<tr>
+<td> ARM720T
+</td><td> LH79520, EP7312
+</td></tr>
+<tr>
+<td> ARM9TDMI
+</td><td>
+</td></tr>
+<tr>
+<td> ARM920T
+</td><td> S3C2410, S3C2440
+</td></tr>
+<tr>
+<td> ARM922T
+</td><td>
+</td></tr>
+<tr>
+<td> ARM926EJS
+</td><td> S3C2412, STN8811, STN8815
+</td></tr>
+<tr>
+<td> ARM966E
+</td><td> STR91XF
+</td></tr>
+<tr>
+<td> ARM11
+</td><td> S3C6400, OMAP2420, MSM7200
+</td></tr>
+<tr>
+<td> ARM1136
+</td><td>
+</td></tr>
+<tr>
+<td> ARM1156
+</td><td>
+</td></tr>
+<tr>
+<td> ARM1176
+</td><td>
+</td></tr>
+<tr>
+<td> CORTEX-M3
+</td><td> LM3S series, STM32 series
+</td></tr>
+<tr>
+<td> CORTEX-A8
+</td><td> OMAP3530 BeagleBoard
+</td></tr>
+<tr>
+<td> CORTEX-A8
+</td><td> DM3730 BeagleBoard-xM
+</td></tr>
+<tr>
+<td> CORTEX-A9
+</td><td> OMAP4430 PandaBoard
+</td></tr>
+<tr>
+<td> XSCALE
+</td><td> PXA255, PXA270, IXP42X
+</td></tr>
+<tr>
+<td> MARVEL
+</td><td> FEROCEON CPU CORE
+</td></tr>
+<tr>
+<td> MIPS
+</td><td> M4K
+</td></tr>
+</table>
+						<table class="table table-bordered table-striped">
+							<thead>
+								<tr>
+									<th>Vendor</th>
+									<th>Processor</th>
+									<th>Interface</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Atmel</td>
+									<td>AVR, ATmega, ATxmega, AT90, ATtiny, ATUC3, ATSAM, AVR32 </td>
+									<td>JTAG, ISP, debugWire</td>
+								</tr>
+								<tr>
+									<td>Broadcom</td>
+									<td>BCM4718, BCM47xx, BCM5352e</td>
+									<td>JTAG</td>
+								</tr>
+								<tr>
+									<td>NXP</td>
+									<td>LPCxxx</td>
+									<td>JTAG</td>
+								</tr>
+								<tr>
+									<td>Hilscher</td>
+									<td>netx,nxh,nxs</td>
+									<td>JTAG</td>
+								</tr>
+	              <tr>
+									<td>Toradex</td>
+									<td>Colibri</td>
+									<td>JTAG</td>
+								</tr>
+
+								<tr>
+									<td>ST</td>
+									<td>STM32F0x, STM32F1x, STM32F2x, STM32F4x, STM32l, STR710, STR730, STR750, STR912, STR912</td>
+									<td>JTAG</td>
+								</tr>
+
+								<tr>
+									<td>Texas Instruments</td>
+									<td>DaVinci, DM355, DM365, DM644, BeagleBone, Pandaboard, AM335, Blaze, Calypso, TMS570</td>
+									<td>JTAG</td>
+								</tr>
+
+								<tr>
+									<td>Toshiba </td>
+									<td>TMPA900, TMPA910</td>
+									<td>JTAG</td>
+								</tr>
+
+								<tr>
+									<td>Freescale</td>
+									<td>iMX, DSP56321, DSP568013, DSP568037</td>
+									<td>JTAG</td>
+								</tr>
+
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div> 
+	<!-- End Features -->
+
+
+
+	<!-- Downloads section -->
+	<div class="section" id="downloads">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="span12">
+						<div class="title">
+							<h2>Downloads</h2>
+							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+							<p>Updates, Sources</p>
+
+						</div>
+						<p class="text-center">
+							<img src="img/pcb.png" align="right">
+							<br><br>Newest Update:&nbsp;<a href="https://github.com/embeddedprojects/usbprog5/raw/master/update/update.tar.gz">Download</a>
+							<br><br>Installation Guide: <a href="https://github.com/embeddedprojects/usbprog5/wiki" target="_blank">Read</a>
+							<br><br>Open Source GIT:&nbsp;<a href="https://github.com/embeddedprojects/usbprog5" target="_blank">Link to Github</a>
+							<br><br>Source OpenOCD:&nbsp;<a href="http://openocd.sourceforge.net/" target="_blank">Link</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+	</div>
+	<!-- End About US -->
+
+
+	<!-- Buy section -->
+	<div class="section" id="buy">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="span12">
+						<div class="title">
+							<h2>Buy</h2>
+							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+							<p>Online Shops.</p>
+
+						</div>
+						<p class="text-center">
+							<a href="http://shop.embedded-projects.net" target="_blank">embedded projects Shop</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+	</div>
+	<!-- End About US -->
+
+
+	<!-- About Us section -->
+	<div class="section" id="aboutus">
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="span12">
+						<div class="title">
+							<h2>About Us</h2>
+							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+							<p>The most important thing to us is building products people love.</p>
+
+						</div>
+						<p class="text-center">
+Did you know that we are a company for custom development based in Augsburg?
+
+From prototypes to series we develop products or circuits.
+
+Our services are:
+
+     embedded Linux (hardware and software)
+     Development hardware, microcontroller, firmware, software
+     Programming USB programming interfaces
+     Web-based surfaces (Web 2.0, Ajax, Javascript, CSS, etc)
+
+						</p>
+						<p class="text-center">
+We also have a modern laboratory equipped with among other things a placement machine the company Autotronik, with which we can produce prototypes or small quantities up to 1000 pieces quickly and easily.
+
+Have to convince yourself of our services have a look at our references and products.
+
+You are still not convinced 100%? Come and Talk to us today.
+
+Development is our passion.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+	</div>
+	<!-- End About US -->
+	<!-- Contact Section -->
+	<div class="section" id="contact" >
+		<div class="container">
+			<div class="content">
+				<div class="row">
+					<div class="span12">
+						<div class="title">
+							<h2>Contact Us</h2>
+							<div class="hr hr-small hr-center"><span class="hr-inner"></span></div>
+							<p>We bring a personal and effective approach to every project we work on.</p>
+
+						</div>
+					</div>
+					<div class="span8">
+						<iframe width="100%" height="317" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=embedded+projects+gmbh&amp;iwloc=A&amp;output=embed"></iframe>
+					</div>
+					<div class="span4">
+						<h4>Our Location</h4>
+						<p>Germany, D-86152 Augsburg, Holzbachstrasse 4</p>
+						<hr class="grey"/>
+						<h4>Web, Email &amp; Phone</h4>
+						<p><a href="http://www.embedded-projects.net" target="_blank">http://www.embedded-projects.net</a></p>
+						<p>info@embedded-projects.net</p>
+						<p>+49 821 27 95 99 0</p>
+						<hr class="grey"/>
+
+					</div>
+				</div>
+			</div>
+		</div> 
+
+	</div>
+	<!-- End Contact Section -->
+	<div id="footer">
+		&copy; 2014 embedded projects GmbH. Designed with <a target="_blank" id="attribution" href="http://www.mrova.com">mRova</a>.
+	</div>
+</body>
+</html>
